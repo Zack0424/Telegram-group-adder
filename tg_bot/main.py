@@ -1,11 +1,14 @@
-from scraper import *
-from manager import *
-from adder import *
+import pyfiglet
 from colorama import init, Fore
+
+from adder import *
+from manager import *
+from scraper import *
 
 init()
 
 y = Fore.YELLOW
+
 
 def banner():
     f = pyfiglet.Figlet(font='slant')
@@ -20,9 +23,14 @@ def main(access_what):
     if access_what == 2:
         scraper_launch()
     if access_what == 3:
-        main_launch()
+        adder_launch()
+
 
 if __name__ == "__main__":
-    banner()
-    access_what = int(input("What do you want to access?\n1: Manager\n2:Scraper\n3:Adder\n"))
-    main(access_what)
+    while True:
+        banner()
+
+        access_what = int(input("What do you want to access?\n[1] Manager\n[2] Scraper\n[3] Adder\n[4] Quit\n"))
+        if access_what == 4:
+            quit()
+        main(access_what)
