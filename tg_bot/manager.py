@@ -165,5 +165,6 @@ def manager_launch():
         elif a == 5:
             clr()
             banner()
+            clr()
             return None
 

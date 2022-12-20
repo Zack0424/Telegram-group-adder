@@ -1,6 +1,3 @@
-import pyfiglet
-from colorama import init, Fore
-
 from adder import *
 from manager import *
 from scraper import *
@@ -34,3 +31,4 @@ if __name__ == "__main__":
         if access_what == 4:
             quit()
         main(access_what)
+        clr()

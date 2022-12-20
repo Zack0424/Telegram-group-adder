@@ -218,4 +218,5 @@ def scraper_launch():
     with open('target_grp.txt', 'w') as f:
         f.write(target_grp)
     f.close()
+    clr()
     return None

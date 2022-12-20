@@ -2,7 +2,6 @@ import pickle
 import random
 import time
 import traceback
-
 import pandas as pd
 from telethon.errors.rpcerrorlist import PeerFloodError, UserPrivacyRestrictedError
 from telethon.sync import TelegramClient
@@ -101,4 +100,5 @@ def adder_launch():
             traceback.print_exc()
             print("Unexpected Error! ")
             continue
+
     return None
