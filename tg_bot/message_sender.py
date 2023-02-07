@@ -3,7 +3,7 @@ from telethon.tl.functions.contacts import ResolveUsernameRequest
 
 # # from telethon.tl.functions.channels import GetFullChannelRequest
 # #
-# # client = TelegramClient("asd",26345051,"d1dc44cb8b9d69ca20b8d6fa5602cca4").start(bot_token="5697892007:AAEfuHnjFjpeMS4J-mw37LKGx4IR53pFcBU")
+# # client = TelegramClient("asd",xxx,"xxx").start(bot_token="xxx")
 # # async def message_sender():
 # #     await client.send_message("ZackEE1005", "Hi")
 # #
@@ -18,10 +18,10 @@ from telethon.tl.functions.contacts import ResolveUsernameRequest
 #
 #
 #
-api_id = "26345051"
-api_hash = "d1dc44cb8b9d69ca20b8d6fa5602cca4"
-bot_token = "5697892007:AAEfuHnjFjpeMS4J-mw37LKGx4IR53pFcBU"
-phone_number = "+36306854154"
+api_id = "xxx"
+api_hash = "xxx"
+bot_token = "xxxx"
+phone_number = "+xxx"
 # ################################################
 # channel_username = 'Testerbot011'
 # ################################################
